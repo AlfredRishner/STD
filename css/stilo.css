@@ -1,0 +1,123 @@
+/*
+ * Ext JS Library 2.0
+ * Copyright(c) 2006-2007, Ext JS, LLC.
+ * licensing@extjs.com
+ *
+ * http://extjs.com/license
+ */
+
+
+                               
+.alto-row .x-grid-cell { 
+    background-color: yellow; 
+    color: #000000; 
+} 
+.medio-row .x-grid-cell { 
+    background-color: #FFA500; 
+    color: #000000; 
+} 
+ 
+.bajo-row .x-grid-cell { 
+    background-color: deepskyblue; 
+    color: #000000; 
+}
+.atendido-row .x-grid-cell { 
+    background-color:greenyellow; 
+    color: #000000; 
+}
+
+
+.color-box-icon {
+width: 16px;
+height: 16px;
+margin: 0px 4px 0px -3px;
+padding: 0px 8px;
+}
+.nav{background:transparent url(images/delete.gif) 0 0 no-repeat !important;}
+.task .x-grid-cell-inner {
+            padding-left: 15px;
+        }
+        .x-grid-row-summary .x-grid-cell-inner {
+            font-weight: bold;
+        }
+        .icon-grid {
+            background: url(../shared/icons/fam/grid.png) no-repeat 0 -1px;
+        }
+        
+/*******tipo doc********/
+.mx-color-naranja .x-grid-cell {
+    background-color: #FFA500 !important;
+}
+.mx-color-verde .x-grid-cell {
+    background-color: #008000 !important;
+    color: #FFFFFF;
+}
+.mx-color-gris .x-grid-cell {
+    background-color: #DEDEDE !important;
+}
+.mx-color-azul .x-grid-cell {
+    background-color: #0000FF !important;
+    color: #FFFFFF;
+}
+.mx-color-rojo .x-grid-cell {
+    background-color: #FF0000 !important;
+    color: #FFFFFF;
+}
+/**********************/
+
+
+.atendido {
+	background-image:url(images/delete.gif) !important;
+}
+
+.noatendido {
+	background-image:url(images/accept.png) !important;
+}
+.aten{
+    background-color: lawngreen !important;
+  
+}
+.ico_3_icon {
+    background-image:url( ../images/house.png) !important;
+}
+.naten{
+    background-color: red !important;
+  
+}
+.add{
+    background-image:url(images/add.gif) !important;
+  
+}
+.guardar{
+    background-image:url(images/save.gif) !important;
+  
+} 
+.cancel {
+  background-image:url('images/cancel.png') !important;
+}
+.print {
+  background-image:url('images/printer.png') !important;
+}
+
+.nuevo { 
+    background: url(../images/add.gif) !important;
+}
+.modificar { 
+    background: url(../images/bogus.png) !important;
+} 
+.eliminar { 
+    background: url(../images/delete.gif) !important; 
+} 
+.papeleta-aprobado { 
+   background: url(images/accept.png) no-repeat 2px 1px; 
+   padding-left: 16px; 
+} 
+ 
+.papeleta-desaprobado { 
+    background: url(../images/cross.gif)  no-repeat 2px 1px; 
+     padding-left: 16px; 
+}
+.x-message-box .ext-mb-download {
+    background: url("images/download.gif") no-repeat scroll 6px 0px transparent;
+    height: 52px!important;
+}
